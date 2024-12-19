@@ -1,0 +1,13 @@
+USE PruebaTecnica
+
+GO
+
+SELECT 
+FAC.CLIENTE, 
+COUNT(FAC.NO_FACTURA) AS CantidadFacturas, 
+SUM(P.VALOR) AS ValorTotalFacturas
+FROM [dbo].[FACTURA] FAC
+JOIN [dbo].[PRODUCTOS] P ON FAC.PRODUCTO = P.ID
+GROUP BY FAC.CLIENTE
+
+GO

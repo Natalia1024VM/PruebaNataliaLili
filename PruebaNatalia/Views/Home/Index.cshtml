@@ -1,0 +1,21 @@
+﻿
+
+@model PruebaNatalia.IndexViewModel
+@{
+    ViewBag.Title = "PRUEBA";
+}
+@using (Html.BeginForm())
+{
+<div class="text-center">
+
+
+    <p>Validación de nombre.</p>
+    <label>@Html.ValidationSummary(true)</label>
+    <br />
+
+    @Html.LabelFor(model => model.Nombre )
+    @Html.TextBoxFor(model => model.Nombre)
+    <button class="btn btn-primary" name="consulta" value="consulta" type="submit">Consultar</button>
+
+</div>
+}

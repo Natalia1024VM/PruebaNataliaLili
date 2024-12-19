@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaNatalia", "PruebaNatalia\PruebaNatalia.csproj", "{115B97A9-F264-4E12-835B-7290CEDE2AF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDal", "CapaDal\CapaDal.csproj", "{5DADAA52-5478-4C70-9101-B086A4A320A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaServicios", "CapaServicios\CapaServicios.csproj", "{AA1F78E7-DC9B-4A59-8BD7-F43FE34C507C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{115B97A9-F264-4E12-835B-7290CEDE2AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{115B97A9-F264-4E12-835B-7290CEDE2AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{115B97A9-F264-4E12-835B-7290CEDE2AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{115B97A9-F264-4E12-835B-7290CEDE2AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DADAA52-5478-4C70-9101-B086A4A320A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DADAA52-5478-4C70-9101-B086A4A320A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DADAA52-5478-4C70-9101-B086A4A320A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DADAA52-5478-4C70-9101-B086A4A320A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA1F78E7-DC9B-4A59-8BD7-F43FE34C507C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA1F78E7-DC9B-4A59-8BD7-F43FE34C507C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA1F78E7-DC9B-4A59-8BD7-F43FE34C507C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA1F78E7-DC9B-4A59-8BD7-F43FE34C507C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
